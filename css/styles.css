@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.page-header {
+  background: #ffffff;
+}
+
+.main {
+  background: #e5e5e5;
+}
+.hero {
+  background: #2f303a;
+}
+.team {
+  background: #f5f4fa;
+}
+.footer {
+  background: #2f303a;
+}
