@@ -2,18 +2,50 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .page-header {
-  background: #ffffff;
+  background-color: #ffffff;
 }
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
+}
+.web {
+  color: #2196f3;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.link:hover {
+  color: #2196f3;
+}
+.contact .link {
+  color: #757575;
+}
+.contact .link:hover {
+  color: #2196f3;
+}
 .main {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
 }
 .hero {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
