@@ -5,7 +5,6 @@ body {
 :root {
   --backgr-header: #ffffff;
   --backgr-hero: #2f303a;
-  --backgr-work: #e5e5e5;
   --backgr-team: #f5f4fa;
   --color-button: #2196f3;
   --color-title: #212121;
@@ -15,7 +14,6 @@ body {
 }
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -30,7 +28,6 @@ body {
 }
 /* посилання в хедері*/
 .link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,6 +49,8 @@ body {
 /* background */
 .hero {
   background-color: var(--backgr-hero);
+  text-align: center;
+  font-family: inherit;
 }
 .our-work {
   background-color: var(--backgr-work);
@@ -71,7 +70,6 @@ body {
 }
 /* HERO,  and TITLE*/
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -88,15 +86,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 
@@ -125,8 +118,6 @@ body {
   color: #212121;
 }
 .uniqueness .text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -154,7 +145,6 @@ body {
   color: var(--color-title);
 }
 .team .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 
@@ -168,7 +158,6 @@ body {
   color: #ffffff;
 }
 .footer .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -178,7 +167,6 @@ body {
   color: #ffffff;
 }
 .footer .link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -195,7 +183,6 @@ body {
 .link-portfolio {
   color: var(--color-button);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -250,11 +237,21 @@ body {
   color: #212121;
 }
 .list-img .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+.address {
+  font-style: normal;
+}
+.link-studio {
+  color: var(--color-button);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
